@@ -5,8 +5,9 @@ import { withSidebar } from "vitepress-sidebar";
 const vitePressOptions: UserConfig = {
   title: "Frappe Docker Docs",
   description: "Frappe in a Container",
-  base: "/frappe_docker/",
-  head: [["link", { rel: "icon", href: "/frappe_docker/favicon.png" }]],
+  // NEW
+  base: "/",
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   themeConfig: {
     logo: "/frappe-docker.png",
     // https://vitepress.dev/reference/default-theme-config
